@@ -1,0 +1,2 @@
+# LinearListView
+Android开源库：解决ScrollView与ListView的冲突解决方案
