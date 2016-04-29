@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">LinearListViewDemo</string>
+    <string name="change_listview_visible">改变ListView的可见状态</string>
+	<string name="text_one">文本一</string>
+	<string name="text_two">文本二</string>
+	<string name="text_three">文本三</string>
+</resources>
