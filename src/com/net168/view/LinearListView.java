@@ -86,6 +86,9 @@ public class LinearListView extends LinearLayout {
 			}
 			removeAllViews();
 		}
+		/**
+		 * 处理后的情况，直接退出view处理
+		 */
 		if (count == 1 && getChildAt(0) == mScrollView) {
 			return;
 		}
@@ -94,6 +97,7 @@ public class LinearListView extends LinearLayout {
 				|| !getListViewVisible((ListView)getChildAt(1)) && mScrollView.getVisibility() == View.VISIBLE) ) {
 			return;
 		}
+		
 		ListView listView = null;
 		if (mPosition < mViewList.size()) {
 			listView = (ListView) mViewList.get(mPosition);
